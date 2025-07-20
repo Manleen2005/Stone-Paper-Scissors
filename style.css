@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    background-color: rgb(236, 216, 156);
+}
+
+.clash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 4rem;
+}
+.clashresult {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(213, 138, 84);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+
+h1 {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    color: #444;
+    text-shadow: 1px 1px 2px #bbb;
+}
+.player1selection,.player2selection{
+     padding: 2rem;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 10px;
+    background-color:beige;
+}
+
+.optionflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.options button{
+    padding: 1rem;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.options button:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.btnflex{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 4rem;
+}
+
+.btnflex button{
+    padding: 1rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.btnflex button:hover{
+     box-shadow: 0 0 10px black;
+     background-color:beige;
+     font-weight: bold;
+}
+ 
